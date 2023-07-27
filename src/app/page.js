@@ -19,10 +19,13 @@ export default function Home() {
                 <Header>
                   <HeaderFirstLine>Hey,</HeaderFirstLine>
                     <Name>It's Diane</Name>
-                    <Squiggle src='/Squiggle.svg' priority/>
+                    <Squiggle src='/Squiggle.svg'
+                              alt="Name Underline"
+                              priority/>
                 </Header>
                 <Content>
-                    <Image src='/ProfileImage.svg'                         alt="Brand Logo"
+                    <Image src='/ProfileImage.svg'
+                           alt="Brand Logo"
                            width={200}
                            height={200}
                            priority />
@@ -32,6 +35,7 @@ export default function Home() {
                     <Text>Welcome</Text>
                     <Arrow
                         src='/arrow.svg'
+                        alt="Arrow Icon"
                         width={50}
                         height={50}
                         priority

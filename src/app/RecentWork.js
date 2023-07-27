@@ -4,7 +4,11 @@ export default function RecentWork(){
     return(
         <>
             <MainContent>
-                <img src='/Marketplace_responsive.png' height={1300} width={1300} priority/>
+                <img src='/Marketplace_responsive.png'
+                     alt="Neighborly Desktop"
+                     height={1300}
+                     width={1300}
+                     priority/>
                 <TableOfContents>
                     <Title>001 Neighborly</Title>
                     <Title>002 Foodie</Title>
