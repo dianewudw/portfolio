@@ -26,10 +26,12 @@ module.exports = {
       'body': ['K2D'],
     },
     extend: {
-      backgroundImage: {
+      TextUnderline: {
         'squiggle':'url(/public/Squiggle.svg)'
-      }
-
+      },
+      backgroundImage: {
+        'futuristic': 'url(/public/futuristic_background.png)'
+      },
     },
   },
   plugins: [],

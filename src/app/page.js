@@ -164,8 +164,8 @@ void main() {
             height: "100vh", width: "100vw", overflow: "hidden", backgroundColor: "#D06EF5"
         }}/>
         <div>
-            </div>
-            <img src='/CryptoDiane.svg' alt='Brand Logo' height={100} width={100}/>
-            <a href='/home' >Click to enter</a>
+        {/*<img src='/CryptoDiane.svg' alt='Brand Logo' height={100} width={100}/>*/}
+        <a href='/home' >Click to enter</a>
+        </div>
     </div>
 }
