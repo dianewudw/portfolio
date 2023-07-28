@@ -4,74 +4,48 @@ import CryptoDiane from '../../public/CryptoDiane.svg';
 import Image from 'next/image'
 import styles from './page.module.css'
 import Script from 'next/script'
-import { useEffect } from 'react'
-
+import {useEffect} from 'react'
+import Link from "next/link";
+//  display: flex;
+//   font-family: "Bai Jamjuree";
+//   font-size: 30px;
+//   color: #333333;
 export default function NavigationBar() {
-
     return (
         <>
-            <Main>
-                <BrandLogo href="/">
-                    <Pic
+            <div class="flex justify-between items-center content-center">
+                <a href="/home" class="flex flex-nowrap inline-flex items-center no-underline">
+                    <img
                         src="/CryptoDiane.svg"
                         alt="Brand Logo"
-                        width={48}
-                        height={48}
-                        priority
+                        class='flex max-w-48 max-h-48'
                     />
-                    <Logo>Diane Wu</Logo>
-                </BrandLogo>
-                <NavLinks>
-                    <NavLink href="/contact">Contact</NavLink>
-                    <NavLink href="/work">Work</NavLink>
-                    <NavLink href='/about'>About</NavLink>
-                    <NavLink href="/info">Info</NavLink>
-                </NavLinks>
-            </Main>
+                    <p class='flex flex-nowrap text-3xl'>Diane Wu</p>
+                </a>
+                <div class='flex contents-center'>
+                    <Link href="/contact" passHref class='flex content-center no-underline margin mx-8 text-3xl hover:text-diane font-body text-gray'>
+                        Contact
+                    </Link>
+
+                    <Link href="/work" passHref class='flex content-center no-underline margin mx-8 text-3xl hover:text-diane font-body text-gray'>
+                        Work
+                    </Link>
+
+                    <Link href="/about" passHref class='flex content-center no-underline margin mx-8 text-3xl hover:text-diane font-body text-gray'>
+                        About
+                    </Link>
+
+                    <Link href="/info" passHref class='flex content-center no-underline margin mx-8 text-3xl hover:text-diane font-body text-gray'>
+                        Info
+                    </Link>
+
+                </div>
+            </div>
         </>
     )
 }
 
-const NavLink = styled.a`
-    display: flex;
-    text-decoration: none;
-    align-content: center;
-    font-family: "Bai Jamjuree";
-    margin-left: 30px;
-    margin-right:30px;
-    font-size:30px;
-    color: #333333;
-`
-const NavLinks = styled.nav`
-    display:flex;
-    justify-content: center;
-  &hover:${NavLink}{
-    color:#D632CF;
-  }
-`
 
-const Pic = styled.img`
-    display:flex;
-`
-const Main = styled.div`
-    display:flex;
-    justify-content:space-between;
-    align-content: center;
-    align-items: center;
-
-`
-
-const Logo = styled.p`
-    display:flex;
-    font-family: "Bai Jamjuree";
-    font-size:30px;
-    color:#333333;
-`
-const BrandLogo = styled.a`
-    display:flex;
-    align-items: center;
-    text-decoration: none;
-`
 
 
 

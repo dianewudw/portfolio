@@ -3,21 +3,28 @@ import styled from 'styled-components'
 export default function RecentWork(){
     return(
         <>
-            <MainContent>
+            <h1 class='flex justify-center text-8xl font-display my-80'>Recent Work</h1>
+            <div class='flex justify-center flex-wrap direction-row items-center my-60'>
                 <img src='/Marketplace_responsive.png'
                      alt="Neighborly Desktop"
-                     height={1300}
-                     width={1300}
-                     priority/>
-                <TableOfContents>
-                    <Title>001 Neighborly</Title>
-                    <Title>002 Foodie</Title>
-                    <Title>003 Keto Diet App</Title>
-                    <Title>004 Case Study</Title>
-                    <Title>005 Responsive Design</Title>
-                </TableOfContents>
-            </MainContent>
-            <p>tbd</p>
+                     class='max-h-2xl max-w-2xl'
+                />
+                <div class='flex-col'>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-7xl text-gray hover:text-diane sm:ml-10'>001 Neighborly</p>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-7xl text-gray hover:text-diane sm:ml-10'>002 Foodie</p>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-7xl text-gray hover:text-diane sm:ml-10'>003 Keto Diet App</p>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-7xl text-gray hover:text-diane sm:ml-10'>004 Case Study</p>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-7xl text-gray hover:text-diane sm:ml-10'>005 Responsive Design</p>
+                </div>
+            </div>
+            <div class='flex flex-row justify-end'>
+                <a href='https://linkedin.com/in/dianewudw'>
+                    <img src='/linkedin.svg' alt='linkedin icon' class='max-h-20 max-w-20 mx-4'/>
+                </a>
+                <a href='https://github.com/dianewudw'>
+                    <img src='/Github.svg' alt='github icon' class='max-h-20 max-w-20 mx-4' />
+                </a>
+            </div>
         </>
     )
 }
@@ -27,7 +34,7 @@ const MainContent = styled.div`
     display:flex;
     flex-direction: row;
     align-items: center;
-    margin: 300px 0px 0px 500px;
+    margin: 800px 0px 0px 300px;
     
 `
 

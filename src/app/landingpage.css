@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree&display=swap');
+
+body {
+    display:grid;
+    justify-content:center;
+    align-content:center;
+    margin: 0;
+    padding: 0;
+    background-color: #1A1A1A;
+    font:5vh "Bai Jamjuree";
+}
+
+a {
+    color:#333333;
+    font-family:"Bai Jamjuree";
+    transition:all 0.3s;
+    position: absolute;
+    zIndex: 10;
+    top: 50%;
+    left: 40%;
+}
+
+a:hover {
+    color:#7FE7B1;
+    text-shadow:1px 1px 100px #DE9146;
+}
+
+img {
+    color:#333333;
+    font-family:"Bai Jamjuree";
+    transition:all 0.3s;
+    position: absolute;
+    zIndex: 10;
+    top: 40%;
+    left: 47%;
+}
+
+img:hover {
+    text-shadow:1px 1px 100px #FDFBFD;
+}

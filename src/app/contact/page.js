@@ -4,6 +4,9 @@ export default function Contact(){
         <>
             <NavigationBar />
             <p>Contact Page Works</p>
+            <h1 className="text-3xl font-light text-diane">
+                Hello world!
+            </h1>
         </>
     )
 }

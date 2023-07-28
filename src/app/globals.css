@@ -1,8 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
     height: 100vh;
-    widgth: 100vw;
-    padding:80px;
-    background-color:#FDFBFD
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+    padding: 80px;
+    background-color: #FDFBFD;
 }
 
 /*:root {*/
