@@ -7,10 +7,10 @@ export default function About(){
         <>
             <NavigationBar/>
             <div class='flex flex-col w-full pb-10'>
-            <h1 class='flex self-center font-display text-7xl text-white'>About Page</h1>
-            <span class='flex flex-row justify-center items-baseline'>
-                <img src='/prof_pic.png' alt='Prof Pic' class='p-20 h-1/2 w-1/2'/>
-                <img src='/white_version.svg' alt='personal_state' class='p-20' />
+            <h1 class='flex self-center font-display pt-10 text-4xl md:text-8xl text-white'>About Page</h1>
+            <span class='flex flex-col md:flex-row justify-center md:items-baseline'>
+                <img src='/prof_pic.png' alt='Prof Pic' class=' p-10 md:p-20 md:h-1/2 md:w-1/2'/>
+                <img src='/white_version.svg' alt='personal_state' class='p-10 md:p-20' />
             </span>
             </div>
             <div className='flex flex-row justify-end p-20'>

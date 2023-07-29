@@ -14,26 +14,26 @@ import Accordian from "@/app/accordian";
 export default function NavigationBar() {
     return (
         <>
-            <div class="flex justify-between items-center content-center p-20">
+            <div class="flex justify-between items-center content-center py-5 px-5 md:px-20 font-header">
                 <a href="/home" class="flex flex-nowrap inline-flex items-center no-underline">
                     <img
                         src="/CryptoDiane.svg"
                         alt="Brand Logo"
                         class='flex w-20 h-20'
                     />
-                    <p class='flex flex-nowrap text-2xl font-header text-white mx-3'>Diane Wu</p>
+                    <p class='hidden md:flex flex-nowrap text-2xl text-white mx-3'>Diane Wu</p>
                 </a>
-                <div class='flex contents-center'>
-                    <Link href="/about" passHref class='flex content-center no-underline margin mx-8 text-2xl hover:text-diane font-body text-white'>
-                        About
+                <div class='hidden md:flex contents-center'>
+                    <Link href="/about" passHref class='flex content-center no-underline margin mx-8 text-xl hover:text-diane text-white'>
+                       <p class='font-body'>About</p>
                     </Link>
-                    <Link href="/resume" passHref class='flex content-center no-underline margin mx-8 text-2xl hover:text-diane font-body text-white'>
+                    <Link href="/resume" passHref class='flex content-center no-underline margin mx-8 text-xl hover:text-diane text-white'>
                         Resume
                     </Link>
-                    <Link href="/work" passHref class='flex content-center no-underline margin mx-8 text-2xl hover:text-diane font-body text-white'>
+                    <Link href="/work" passHref class='flex content-center no-underline margin mx-8 text-xl hover:text-diane text-white'>
                         Work
                     </Link>
-                    <Link href="/info" passHref class='flex content-center no-underline margin mx-8 text-2xl hover:text-diane font-body text-white'>
+                    <Link href="/info" passHref class='flex content-center no-underline margin mx-8 text-xl hover:text-diane text-white'>
                         Info
                     </Link>
                 </div>
