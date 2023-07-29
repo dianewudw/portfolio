@@ -6,7 +6,7 @@ export default function Home() {
       <>
         <div class='bg-[url("/futuristic_background.png")] bg-cover bg-no-repeat h-full w-full object-scale-down'>
             <NavigationBar/>
-                <div class='flex flex-col w-full px-20 pt-20 md:pt-60 pb-10'>
+                <div class='flex flex-col w-full px-5 pt-20 md:pt-60 pb-10'>
                     <div class=''>
                       <h2 class='flex flex-start text-3xl md:text-5xl font-header text-white pb-10'>Hey,</h2>
                         <span >
