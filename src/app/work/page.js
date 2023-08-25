@@ -12,11 +12,11 @@ export default function Work(){
                      class='px-5 md:p-0 md:max-h-2xl md:max-w-2xl'
                 />
                 <div class='flex-col'>
-                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-white hover:text-diane sm:ml-10'>001 Neighborly</p>
-                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-white hover:text-diane sm:ml-10'>002 Foodie</p>
-                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-white hover:text-diane sm:ml-10'>003 Keto Diet App</p>
-                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-white hover:text-diane sm:ml-10'>004 Case Study</p>
-                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-white hover:text-diane sm:ml-10'>005 Responsive Design</p>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>001 Neighborly</p>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>002 Foodie</p>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>003 Keto Diet App</p>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>004 Case Study</p>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>005 Responsive Design</p>
                 </div>
             </div>
             <div class='flex flex-row justify-end p-20'>
