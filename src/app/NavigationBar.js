@@ -11,7 +11,7 @@ export default function NavigationBar() {
                         alt="Brand Logo"
                         class='flex w-12 h-12 md:w-20 md:h-20'
                     />
-                    <p class='hidden md:flex flex-nowrap text-2xl text-gray mx-3'>Diane Wu</p>
+                    <p class='md:flex flex-nowrap text-2xl text-gray mx-3'>Diane Wu</p>
                 </a>
                 <div class='md:flex contents-center'>
                     <Link href="/about" passHref class='hidden md:flex content-center no-underline margin mx-8 text-2xl hover:text-diane text-gray'>
