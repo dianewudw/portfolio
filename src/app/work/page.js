@@ -5,7 +5,7 @@ export default function Work(){
     return(
         <>
             <NavigationBar />
-            <h1 class='flex justify-center text-5xl md:text-8xl text-white font-display pt-10 md:pt-20'>Recent Work</h1>
+            <h1 class='flex justify-center text-5xl md:text-8xl text-gray font-display pt-10 md:pt-20'>Recent Work</h1>
             <div class='flex justify-center flex-wrap direction-row items-center my-10 md:my-40 '>
                 <img src='/Marketplace_responsive.png'
                      alt="Neighborly Desktop"
