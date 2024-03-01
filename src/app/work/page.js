@@ -15,7 +15,7 @@ export default function Work(){
             <div class='flex justify-center flex-wrap direction-row items-center my-5md:my-40 '>
                 { setImage ? <img src={image} alt='cover image' class='group px-5 md:p-0 md:max-h-2xl md:max-w-2xl' /> : null}
 
-                <div class='work-display group flex-col'>
+                <div class='flex-col'>
                     <ul>
                         <li>
                             <Link href='/work/everhomecare' class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>001 Ever Home</Link>
