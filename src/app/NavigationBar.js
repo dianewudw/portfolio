@@ -7,11 +7,11 @@ export default function NavigationBar() {
             <div class="flex justify-between items-center content-center py-5 px-5 md:px-20 font-header">
                 <a href="/home" class="flex flex-nowrap inline-flex items-center no-underline">
                     <img
-                        src="/CryptoDiane.svg"
+                        src="/Diane Wu-1.svg"
                         alt="Brand Logo"
-                        class='flex w-12 h-12 md:w-20 md:h-20'
+                        class='flex w-40 h-12'
                     />
-                    <p class='md:flex flex-nowrap text-2xl text-gray mx-3'>Diane Wu</p>
+                    {/*<p class='md:flex flex-nowrap text-2xl text-gray mx-3'>Diane Wu</p>*/}
                 </a>
                 <div class='md:flex contents-center'>
                     <Link href="/about" passHref class='hidden md:flex content-center no-underline margin mx-8 text-2xl hover:text-diane text-gray'>

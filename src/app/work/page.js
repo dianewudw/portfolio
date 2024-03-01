@@ -1,22 +1,40 @@
 'use client'
 import styled from 'styled-components'
+import { useState } from 'react'
 import NavigationBar from "@/app/NavigationBar";
+
+import Link from 'next/link'
+
 export default function Work(){
+    const [ image, setImage ] = useState('/EverHomeCare.png')
+
+
+    const onClickEverHomeCare= () => {
+        // setImage('/everhomecare.png')
+        // router.push('/work/everhomecare')
+    }
+    const onClickArtfolio = () => {
+        // setImage('/artfolio.png')
+    }
+
+    const onClickKetoDiet = () => {
+        // setImage('/ketodiet.png')
+    }
     return(
         <>
             <NavigationBar />
             <h1 class='flex justify-center text-5xl md:text-8xl text-gray font-display pt-10 md:pt-20'>Recent Work</h1>
-            <div class='flex justify-center flex-wrap direction-row items-center my-10 md:my-40 '>
-                <img src='/Marketplace_responsive.png'
-                     alt="Neighborly Desktop"
-                     class='px-5 md:p-0 md:max-h-2xl md:max-w-2xl'
-                />
-                <div class='flex-col'>
-                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>001 Neighborly</p>
-                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>002 Foodie</p>
-                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>003 Keto Diet App</p>
-                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>004 Case Study</p>
-                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>005 Responsive Design</p>
+            <div class='flex justify-center flex-wrap direction-row items-center my-5md:my-40 '>
+                { setImage ? <img src={image} alt='cover image' class='group px-5 md:p-0 md:max-h-2xl md:max-w-2xl' /> : null}
+
+                <div class='group flex-col'>
+                    <ul>
+                        <li>
+                            <Link href='/work/everhomecare' class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10'>001 Ever Home</Link>
+                        </li>
+                    </ul>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10' onClick={onClickArtfolio}>002 Artfolio</p>
+                    <p class='flex flex-nowrap font-body text-3xl sm:text-6xl text-gray hover:text-diane sm:ml-10' onClick={onClickKetoDiet}>003 KetoDiet</p>
                 </div>
             </div>
             <div class='flex flex-row justify-end p-20'>

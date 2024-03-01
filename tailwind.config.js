@@ -30,7 +30,7 @@ module.exports = {
         'squiggle':'url(/public/Squiggle.svg)'
       },
       backgroundImage: {
-        'futuristic': 'url(/public/futuristic_background.png)'
+        'futuristic': 'url(/public/futuristic_background.png)',
       },
     },
   },

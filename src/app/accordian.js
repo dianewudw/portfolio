@@ -19,7 +19,7 @@ export default function Accordian(){
                                         001
                                         <span className="absolute inset-0"></span>
                                     </a>
-                                    <p className="mt-1 text-gray-600">Neighborly</p>
+                                    <p className="mt-1 text-gray-600">KetoDiet</p>
                                 </div>
                             </div>
                             <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
@@ -28,7 +28,7 @@ export default function Accordian(){
                                         002
                                         <span className="absolute inset-0"></span>
                                     </a>
-                                    <p className="mt-1 text-gray-600">Foodie</p>
+                                    <p className="mt-1 text-gray-600">Ever Home Care</p>
                                 </div>
                             </div>
                             <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
@@ -37,7 +37,7 @@ export default function Accordian(){
                                         003
                                         <span className="absolute inset-0"></span>
                                     </a>
-                                    <p className="mt-1 text-gray-600">Keto Diet App</p>
+                                    <p className="mt-1 text-gray-600">Artfolio</p>
                                 </div>
                             </div>
                             <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
@@ -46,7 +46,7 @@ export default function Accordian(){
                                         004
                                         <span className="absolute inset-0"></span>
                                     </a>
-                                    <p className="mt-1 text-gray-600">Case Study</p>
+                                    <p className="mt-1 text-gray-600">Neighborly</p>
                                 </div>
                             </div>
                             <div className="group relative flex gap-x-6 rounded-lg p-4 hover:bg-gray-50">
@@ -55,7 +55,7 @@ export default function Accordian(){
                                         005
                                         <span className="absolute inset-0"></span>
                                     </a>
-                                    <p className="mt-1 text-gray-600">Responsive Design</p>
+                                    <p className="mt-1 text-gray-600">Foodie</p>
                                 </div>
                             </div>
                         </div>

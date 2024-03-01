@@ -36,6 +36,7 @@ img {
     top: 40%;
     left: 50%;
 }
+
 @media screen and (max-width:479px){
     img {
         top: 40%;
