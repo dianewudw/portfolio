@@ -1,5 +1,5 @@
 'use client'
-
+// page isn't connected with anything
 export default function Accordian(){
     return(
         <>

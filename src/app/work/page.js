@@ -7,13 +7,15 @@ import Link from 'next/link'
 
 export default function Work(){
     const [ image, setImage ] = useState('/EverHomeCare.png')
+    //based on hover state, view certain image, EHC, A, KD
+
 
     return(
         <>
-            <NavigationBar />
+        <NavigationBar />
             <h1 class='flex justify-center text-5xl md:text-8xl text-gray font-display pt-10 md:pt-20'>Recent Work</h1>
             <div class='flex justify-center flex-wrap direction-row items-center my-5md:my-40 '>
-                { setImage ? <img src={image} alt='cover image' class='group px-5 md:p-0 md:max-h-2xl md:max-w-2xl' /> : null}
+                { setImage ? <img src={image} alt='cover image' class='px-5 md:p-0 md:max-h-2xl md:max-w-2xl' /> : null}
 
                 <div class='flex-col'>
                     <ul>
