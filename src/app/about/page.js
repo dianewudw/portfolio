@@ -1,6 +1,6 @@
 'use client'
-
 import NavigationBar from "@/app/NavigationBar";
+import Image from 'next/image'
 
 export default function About(){
     return(

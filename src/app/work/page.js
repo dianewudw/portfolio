@@ -2,12 +2,11 @@
 import styled from 'styled-components'
 import { useState } from 'react'
 import NavigationBar from "@/app/NavigationBar";
-
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Work(){
     const [ image, setImage ] = useState('/EverHomeCare.png')
-    //based on hover state, view certain image, EHC, A, KD
 
 
     return(
@@ -15,7 +14,7 @@ export default function Work(){
         <NavigationBar />
             <h1 class='flex justify-center text-5xl md:text-8xl text-gray font-display pt-10 md:pt-20'>Recent Work</h1>
             <div class='flex justify-center flex-wrap direction-row items-center my-5md:my-40 '>
-                { setImage ? <img src={image} alt='cover image' class='px-5 md:p-0 md:max-h-2xl md:max-w-2xl' /> : null}
+                { setImage ? <Image src={image} alt='cover image' class='px-5 md:p-0 md:max-h-2xl md:max-w-2xl' /> : null}
 
                 <div class='flex-col'>
                     <ul>
@@ -31,12 +30,12 @@ export default function Work(){
                     </ul>
                 </div>
             </div>
-            <div class='flex flex-row justify-end p-20'>
+            <div className='flex flex-row justify-end p-20'>
                 <a href='https://linkedin.com/in/dianewudw'>
-                    <img src='/linkedin.svg' alt='linkedin icon' class='max-h-20 max-w-20 mx-4'/>
+                    <Image src='/linkedin.svg' alt='linkedin icon' className='max-h-20 max-w-20 mx-4'/>
                 </a>
                 <a href='https://github.com/dianewudw'>
-                    <img src='inverted_githublogo.png' alt='github icon' class='max-h-20 max-w-20 mx-4' />
+                    <Image src='/inverted_githublogo.png' alt='github icon' className='max-h-20 max-w-20 mx-4'/>
                 </a>
             </div>
         </>

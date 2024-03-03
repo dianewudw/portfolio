@@ -24,7 +24,7 @@ export default function NavigationBar() {
                             Work
                         </Link>
                         {/*<Link href="/info" passHref class='hidden md:flex content-center no-underline margin mx-8 text-2xl hover:text-diane text-gray'>*/}
-                        {/*    Info*/}
+                        {/*    Contact*/}
                         {/*</Link>*/}
                     <div class='flex opacity-100 h-full w-full'>
                     </div>
