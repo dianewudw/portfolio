@@ -164,7 +164,7 @@ void main() {
             height: "100vh", width: "100vw", overflow: "hidden", backgroundColor: "#D06EF5"
         }}/>
         <div>
-        <a href='/home' >Currently Under Construction</a>
+        <a href='/home' >Enter</a>
         </div>
     </div>
 }

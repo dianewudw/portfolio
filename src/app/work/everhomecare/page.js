@@ -16,14 +16,6 @@ export default function EverHomeCare() {
                 </button>
                 </div>
             </div>
-            <div className='flex flex-row justify-end p-20'>
-                <a href='https://linkedin.com/in/dianewudw'>
-                    <Image src='/linkedin.svg' alt='linkedin icon' className='max-h-20 max-w-20 mx-4'/>
-                </a>
-                <a href='https://github.com/dianewudw'>
-                    <Image src='/inverted_githublogo.png' alt='github icon' className='max-h-20 max-w-20 mx-4'/>
-                </a>
-            </div>
         </>
     )
 }

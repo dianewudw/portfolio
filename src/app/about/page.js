@@ -9,7 +9,7 @@ export default function About(){
             <div class='flex relative flex-col w-full'>
             <h1 class='flex self-center font-display pt-10 text-4xl md:text-8xl text-gray'>About Me</h1>
             <span class='flex flex-col md:flex-row justify-center md:items-center w-full'>
-                <img src='/prof_pic.png' alt='Prof Pic' class=' p-10 md:p-20 md:w-1/2 object-cover rounded-full'/>
+                <Image src='/prof_pic.png' alt='Prof Pic' class=' p-10 md:p-20 md:w-1/2 object-cover rounded-full'/>
                 <div class='flex flex-col md:h-1/2 md:w-1/2 md:justify-items-center'>
                     <p class='flex pt-4 font-body text-5xl sm:text-3xl p-10'>
                         Diane Wu
@@ -27,11 +27,11 @@ export default function About(){
             </span>
             </div>
             <div className='flex flex-row justify-end p-20'>
-                <a href='https://linkedin.com/in/dianewudw'>
-                    <img src='/linkedin.svg' alt='linkedin icon' className='max-h-20 max-w-20 mx-4'/>
+                <a href='https://linkedin.com/in/dianewudw' className='h-15 w-20 px-2'>
+                    <Image src='/linkedin.svg' alt='linkedin icon' className='w-full h-full object-contains'/>
                 </a>
-                <a href='https://github.com/dianewudw'>
-                    <img src='/inverted_githublogo.png' alt='github icon' className='max-h-20 max-w-20 mx-4'/>
+                <a href='https://github.com/dianewudw' className='h-15 w-20 px-2'>
+                    <Image src='/inverted_githublogo.png' alt='github icon' className='w-full h-full object-contains'/>
                 </a>
             </div>
         </>
