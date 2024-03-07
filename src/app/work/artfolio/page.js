@@ -6,7 +6,7 @@ export default function Artfolio() {
         <>
             <NavigationBar/>
             <div>
-                <Image src='/ArtfolioCaseStudy.png' alt='Artfolio Case Study' class='w-screen'/>
+                <Image src='/Artfolio_Capstone.svg' alt='Artfolio Case Study' class='w-screen'/>
             </div>
             <div>
                 <div className='flex w-full p-10 justify-center'>

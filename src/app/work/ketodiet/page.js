@@ -6,7 +6,7 @@ export default function KetoDiet() {
         <>
             <NavigationBar/>
             <div>
-                <Image src='/KetoDietCaseStudy.png' alt='KetoDiet Case Study' class='w-screen'/>
+                <Image src='/KetoDiet_Capstone.svg' alt='KetoDiet Case Study' class='w-screen'/>
             </div>
             <div>
                 <div className='flex w-full p-10 justify-center'>
